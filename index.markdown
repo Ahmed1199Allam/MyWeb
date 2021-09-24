@@ -12,10 +12,10 @@ permalink: /Home/
 <nav>
 		<uln id="mainMenu">
         <lin><a class="active" href="{{site.baseurl}}/Home/">Home</a></lin>
-        <lin><a href="/Events/">Events</a></lin>
+        <lin><a href="{{site.baseurl}}/Events/">Events</a></lin>
         <lin><a>Activities</a>
             <uln>
-                <lin><a href="/Activities/Courses/" style= "width: 130px;">Courses</a></lin>
+                <lin><a href="{{site.baseurl}}/Activities/Courses/" style= "width: 130px;">Courses</a></lin>
                 <lin><a href="/Activities/Workshops/" style= "width: 130px;">Workshops</a></lin>
                 <lin><a href="/Activities/Internships/" style= "width: 130px;">Internships</a></lin>
             </uln>
