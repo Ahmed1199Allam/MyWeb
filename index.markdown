@@ -3,15 +3,15 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-permalink: /Home/
+permalink: /
 ---
-<link rel="stylesheet" href="/assets/css/styles.scss">
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Navigation bar -->
 <nav>
 		<uln id="mainMenu">
-        <lin><a class="active" href="{{site.baseurl}}/Home/">Home</a></lin>
+        <lin><a class="active" href="{{site.baseurl}}">Home</a></lin>
         <lin><a href="{{site.baseurl}}/Events/">Events</a></lin>
         <lin><a>Activities</a>
             <uln>
